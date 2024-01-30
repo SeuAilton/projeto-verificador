@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+@media screen and (min-width:768px) {
+
+    h1, article, footer {
+        width: 500px;
+    }
+
+    #data {
+        width: 50%;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #imagem {
+        margin-left: 0;
+    }
+
+    div {   
+        width: 450px;
+    }
+}

@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: url("../imagens/south_park/South_park.jpg") no-repeat center fixed;
+    background-size: cover;
+    
+}
+
+main {
+    padding-top: 40px;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    background-color: #2b723a;
+    color: whitesmoke;
+    border-radius: 10px 10px 0 0;
+}
+
+h1, article, footer {
+    width: 320px;
+}
+
+article {
+    padding: 20px;
+    background-color: #39974d;
+    margin: auto;
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+p {
+    padding: 10px 0;
+}
+
+#data {
+    width: 40%;
+    height: 25px;
+    background-color: rgb(233, 233, 233);
+}
+
+#verificar {
+    display: block;
+    width: 60%;
+    margin: 5px auto;
+    height: 1.5em;
+    font-size: 1em;
+    min-width: 200px;
+}
+
+div {
+    margin: auto;
+    width: 280px;
+    text-align: center;
+    background-color: #5b7cc2;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+}
+
+#imagem {
+    margin-left: -10px;
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    background-color: #2b723a;
+    border-radius: 0 0 10px 10px;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}

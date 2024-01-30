@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/media.css">
+    <title>Verificador de Idade</title>
+</head>
+<body>
+    <main>
+        <h1>Verificador de Idade</h1>
+        <article>
+            <fieldset>
+                <label for="data">Data de nascimento: <input type="date" id="data" name="data" id="data" required></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Sexo</legend>
+
+                <label for="sexoM"><input type="radio" id="sexoM" name="sexo" value="sexoM" checked> Masculino</label>
+
+                <label for="sexoF"><input type="radio" id="sexoF" name="sexo" value="sexoF"> Feminino</label>
+            </fieldset>
+
+            <p>
+                <input type="submit" id="verificar" value="Verificar" onclick="verificar()">
+            </p>
+            
+            <div>
+                <p id="resultado">
+                    Quantos anos você tem?
+                </p>
+                <p id="imagem">
+                    <picture>
+                        <img id="imagem-img" src="imagens/interroga/interrogation-point.png" alt="Imagem Aleatória">
+                    </picture>
+                </p>
+            </div>
+        </article>
+        <footer>
+            <p>
+                <a href="https://github.com/SeuAilton/javascript/tree/main/desafios/verificador" target="_blank">SeuAilton (Prelúdio)</a>
+            </p>
+        </footer>
+    </main>
+    <script src="codigo/script.js">
+    </script>
+</body>
+</html>
